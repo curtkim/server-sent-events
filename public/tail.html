@@ -1,0 +1,13 @@
+<html>
+<head>
+  <script type="text/javascript">
+    var source = new EventSource('/tail');
+    source.addEventListener('message', function(e) {
+      document.write(e.data + "<br/>");
+      console.log(e);
+    }, false);
+  </script>
+</head>
+<body>
+</body>
+</html>

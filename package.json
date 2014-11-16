@@ -1,0 +1,19 @@
+{
+  "name": "server-sent-events",
+  "description": "server-sent-events",
+  "version": "0.1.0",
+  "author": "curtkim",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/curtkim/server-sent-events"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "tail": "^0.4.0",
+    "express": "^4.10.2"
+  },
+  "private": "true",
+  "engines": [
+    "node >=0.10"
+  ]
+}
